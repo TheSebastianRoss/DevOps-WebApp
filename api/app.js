@@ -35,10 +35,10 @@ app.get('/', (req, res) => {
 		{
 			"id": "4",
 			"name": "Pitching Machine",
-			"batting": 0.0,
+			"batting": 1.0,
 			"pitching": 2.5,
-			"baserunning": 0.0,
-			"defense": 0.0
+			"baserunning": 1.0,
+			"defense": 1.0
 		}
 	]);
 });
