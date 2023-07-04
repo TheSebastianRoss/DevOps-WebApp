@@ -6,10 +6,6 @@ pipeline {
 		booleanParam(name: 'executeTests', defaultValue: true, description: 'Whether to execute or skip tests')
 	}
 	
-	environment {
-		
-	}
-	
 	tools {
 		maven 'Maven'
 	}
