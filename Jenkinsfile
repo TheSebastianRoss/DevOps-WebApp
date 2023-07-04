@@ -40,28 +40,4 @@ pipeline {
 			}
 		}
 	}
-	
-	post {
-	
-		always {
-			// executed regardless of success or failure
-			steps {
-				
-			}
-		}
-		
-		success {
-			// executed if nothing failed
-			steps {
-				
-			}
-		}
-		
-		failure {
-			// executed if something failed
-			steps {
-				
-			}
-		}
-	}
 }
