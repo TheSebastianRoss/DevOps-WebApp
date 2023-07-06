@@ -10,7 +10,13 @@ I'm creating a DevOps workflow to facilitate the development of a simple Web App
 - [ ] Develop Application
   - [ ] Clear out practice apps
   - [ ] Do high-level planning
+    - [x] Choose languages and frameworks for front and back End
+	- [ ] Set up .gitignore file for common types of files for the chosen languages and frameworks
   - [ ] Front End
-  - [ ] API
-  - [ ] Back End
+    - [x] Choose language / framework (React.js)
+	- [ ] Add test/ and src/ directories
+  - [ ] Back End and API
+    - [x] Choose language / framework (Java Spring Boot)
+	- [ ] Add test/ and src/ directories
+  - [ ] Move to-do list to GitHub project board
 
