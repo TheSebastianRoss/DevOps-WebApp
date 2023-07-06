@@ -11,7 +11,7 @@ I'm creating a DevOps workflow to facilitate the development of a simple Web App
   - [ ] Clear out practice apps
   - [ ] Do high-level planning
     - [x] Choose languages and frameworks for front and back End
-	- [ ] Set up .gitignore file for common types of files for the chosen languages and frameworks
+	- [x] Set up .gitignore file for common types of files for the chosen languages and frameworks
   - [ ] Front End
     - [x] Choose language / framework (React.js)
 	- [ ] Add test/ and src/ directories
