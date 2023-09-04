@@ -2,16 +2,16 @@
 version: "3.8"
 services: 
     api: 
-        build: ./api
-        container_name: api_c
+        build: ./Backend
+        container_name: bxaseball-sim-backend-api
         ports: 
-            - '4000:4000'
+            - '8000:8080'
         volumes:
             - ./api:/app
             - /app/node_modules
-    myblog:
-        build: ./myblog
-        container_name: myblog_c
+    frontend:
+        build: ./Frontend/bxaseball-webapp-frontend
+        container_name: bxaseball-webapp-frontend
         ports:
             - '3000:3000'
         stdin_open: true
